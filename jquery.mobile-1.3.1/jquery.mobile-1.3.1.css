@@ -119,7 +119,15 @@
 .ui-btn-down-a .ui-btn-inner {
 	border-top: 			1px solid #000;
 	border-color: 			rgba(0,0,0,.3);
+	-moz-box-shadow: 		inset 0px 1px 3px rgba(0,0,0,.3);
+	-webkit-box-shadow: 	inset 0px 1px 3px rgba(0,0,0,.3);
 	box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.3);
+}
+
+.ui-btn-down-a.ui-shadow {
+	box-shadow: 0 1px 0px #fff;
+	-moz-box-shadow: 0 1px 0px #fff;
+	-webkit-box-shadow: 0 1px 0px #fff;
 }
 
 .ui-btn-down-a:visited,
@@ -208,7 +216,7 @@
 .ui-btn-up-b {
 	border: 1px solid 		#2c89ba /*{b-bup-border}*/;
 	background: 			#45b1e9 /*{b-bup-background-color}*/;
-	font-weight: bold;
+	font-weight: 			bold;
 	color: 					#fff /*{b-bup-color}*/;
 }
 
@@ -242,7 +250,15 @@
 .ui-btn-down-b .ui-btn-inner {
 	border-top: 			1px solid #000;
 	border-color: 			rgba(0,0,0,.15);
+	-moz-box-shadow: 		inset 0px 1px 3px rgba(0,0,0,.15);
+	-webkit-box-shadow: 	inset 0px 1px 3px rgba(0,0,0,.15);
 	box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+}
+
+.ui-btn-down-b.ui-shadow {
+	box-shadow: 0 1px 0px #fff;
+	-moz-box-shadow: 0 1px 0px #fff;
+	-webkit-box-shadow: 0 1px 0px #fff;
 }
 
 .ui-btn-down-b:visited,
@@ -334,7 +350,7 @@
 	color: #2489ce /*{c-body-link-active}*/;
 }
 .ui-btn-up-c {
-	border: 1px solid 		#ddd /*{c-bup-border}*/;
+	border: 1px solid 		#d5d5d5 /*{c-bup-border}*/;
 	background: 			#fff /*{c-bup-background-color}*/;
 	font-weight: bold;
 	color: 					#444 /*{c-bup-color}*/;
@@ -347,10 +363,17 @@
 }
 .ui-btn-up-c:visited,
 .ui-btn-up-c a.ui-link-inherit {
-	color: 					#2f3e46 /*{c-bup-color}*/;
+	color: 					#222 /*{c-bup-color}*/;
 }
+
+.ui-btn-up-c.ui-btn-active {
+	border: 1px solid 		#d5d5d5;
+	background-color: 		#fff;
+	color: 					#222;
+}
+
 .ui-btn-hover-c {
-	border: 1px solid 		#ccc /*{c-bhover-border}*/;
+	border: 1px solid 		#bbb /*{c-bhover-border}*/;
 	background: 			#fefefe /*{c-bhover-background-color}*/;
 	font-weight: bold;
 	color: 					#222 /*{c-bhover-color}*/;
@@ -364,8 +387,15 @@
 .ui-btn-hover-c:visited,
 .ui-btn-hover-c:hover,
 .ui-btn-hover-c a.ui-link-inherit {
-	color: 					#2f3e46 /*{c-bhover-color}*/;
+	color: 					#222 /*{c-bhover-color}*/;
 }
+
+.ui-btn-hover-c.ui-btn-active, .ui-btn-hover-c.ui-btn-active:hover {
+	border: 1px solid 		#bbb;
+	background-color: 		#fefefe;
+	color: 					#222;
+}
+
 .ui-btn-down-c {
 	border: 1px solid 		#bbb /*{c-bdown-border}*/;
 	background: 			#dfdfdf /*{c-bdown-background-color}*/;
@@ -377,12 +407,22 @@
 	border-top: 			1px solid #000;
 	border-color: 			rgba(0,0,0,.15);
 	box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+	-webkit-box-shadow: 	inset 0px 1px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 		inset 0px 1px 3px rgba(0,0,0,.15);
+	color:					#222;
+	background: 			#dfdfdf;
+}
+
+.ui-btn-down-c.ui-shadow {
+	box-shadow: 0 1px 0px #fff;
+	-moz-box-shadow: 0 1px 0px #fff;
+	-webkit-box-shadow: 0 1px 0px #fff;
 }
 
 .ui-btn-down-c:visited,
 .ui-btn-down-c:hover,
 .ui-btn-down-c a.ui-link-inherit {
-	color: 					#2f3e46 /*{c-bdown-color}*/;
+	color: 					#222 /*{c-bdown-color}*/;
 }
 .ui-btn-up-c,
 .ui-btn-hover-c,
@@ -472,6 +512,12 @@
 	font-weight: bold;
 	color: 					#FFF /*{d-bup-color}*/;
 }
+
+.ui-btn-up-d.ui-btn-active {
+	border: 1px solid 		#559223 /*{a-bhover-border}*/;
+	background-color: 		#86c44c;
+}
+
 .ui-btn-up-d:visited,
 .ui-btn-up-d a.ui-link-inherit {
 	color: 					#FFF /*{d-bup-color}*/;
@@ -483,6 +529,12 @@
 	color: 					#FFF /*{d-bhover-color}*/;
 	cursor: pointer;
 }
+
+.ui-btn-hover-d.ui-btn-active {
+	border: 1px solid 		#559223 /*{a-bhover-border}*/;
+	background-color: 		#86c44c;
+}
+
 .ui-btn-hover-d:visited,
 .ui-btn-hover-d:hover,
 .ui-btn-hover-d a.ui-link-inherit {
@@ -499,6 +551,14 @@
 	border-top: 			1px solid #000;
 	border-color: 			rgba(0,0,0,.15);
 	box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+	-webkit-box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+}
+
+.ui-btn-down-d.ui-shadow {
+	box-shadow: 0 1px 0px #fff;
+	-moz-box-shadow: 0 1px 0px #fff;
+	-webkit-box-shadow: 0 1px 0px #fff;
 }
 
 .ui-btn-down-d:visited,
@@ -550,6 +610,12 @@
 	font-weight: bold;
 	color: 					#fff /*{a-bup-color}*/;
 }
+
+.ui-btn-up-f.ui-btn-active {
+	border: 1px solid 		#ae2323 /*{a-bhover-border}*/;
+	background-color: 		#e44141;
+}
+
 .ui-btn-up-f:visited,
 .ui-btn-up-f a.ui-link-inherit {
 	color: 					#fff /*{a-bup-color}*/;
@@ -560,6 +626,12 @@
 	font-weight: bold;
 	color: 					#fff;
 }
+
+.ui-btn-hover-f.ui-btn-active {
+	border: 1px solid 		#ae2323 /*{a-bhover-border}*/;
+	background-color: 		#e44141;
+}
+
 .ui-btn-hover-f:visited,
 .ui-btn-hover-f:hover,
 .ui-btn-hover-f a.ui-link-inherit {
@@ -576,6 +648,14 @@
 	border-top: 			1px solid #000;
 	border-color: 			rgba(0,0,0,.15);
 	box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+	-moz-box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+	-webkit-box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
+}
+
+.ui-btn-down-f.ui-shadow {
+	-moz-box-shadow: 0 1px 0px #fff;
+	-webkit-box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px #fff;
 }
 
 .ui-btn-down-f:visited,
@@ -637,6 +717,12 @@
 	font-weight: bold;
 	color: 					#FFF /*{e-bup-color}*/;
 }
+
+.ui-btn-up-e.ui-btn-active {
+	border: 1px solid 		#c1a005 /*{a-bhover-border}*/;
+	background-color: 		#f6db67;
+}
+
 .ui-btn-up-e:visited,
 .ui-btn-up-e a.ui-link-inherit {
 	color: 					#FFF /*{e-bup-color}*/;
@@ -647,6 +733,12 @@
 	font-weight: bold;
 	color: 					#FFF /*{e-bhover-color}*/;
 }
+
+.ui-btn-hover-e.ui-btn-active {
+	border: 1px solid 		#c1a005 /*{a-bhover-border}*/;
+	background-color: 		#f6db67;
+}
+
 .ui-btn-hover-e:visited,
 .ui-btn-hover-e:hover,
 .ui-btn-hover-e a.ui-link-inherit {
@@ -662,10 +754,17 @@
 .ui-btn-down-e .ui-btn-inner {
 	border-top: 			1px solid #000;
 	border-color: 			rgba(0,0,0,.15);
+	-moz-box-shadow: 		inset 0px 1px 3px rgba(0,0,0,.15);
+	-webkit-box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
 	box-shadow: 			inset 0px 1px 3px rgba(0,0,0,.15);
 }
 
+.ui-btn-down-e.ui-shadow {
+	-moz-box-shadow: 0 1px 0px #fff;
+	-webkit-box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px #fff;
 }
+
 .ui-btn-down-e:visited,
 .ui-btn-down-e:hover,
 .ui-btn-down-e a.ui-link-inherit {
@@ -2798,7 +2897,14 @@ input.ui-input-text.ui-slider-input {
 .ui-slider-handle .ui-btn-inner {
 	padding: 0;
 	height: 100%;
+	border-top: 1px solid #fff;
+	border-color: #fff;
+	-moz-box-shadow: 0px 1px 2px rgba(0,0,0,.1), inset 0px 1px 0px #fff;
+	-webkit-box-shadow: 0px 1px 2px rgba(0,0,0,.1), inset 0px 1px 0px #fff;
+	box-shadow: 0px 1px 2px rgba(0,0,0,.1), inset 0px 1px 0px #fff;
+	background: #fefefe;
 }
+
 .ui-slider-track.ui-mini .ui-slider-handle .ui-btn-inner {
 	height: 30px;
 	width: 30px;
