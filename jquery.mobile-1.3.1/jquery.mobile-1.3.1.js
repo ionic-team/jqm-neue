@@ -5930,7 +5930,7 @@ $.widget( "mobile.collapsible", $.mobile.widget, {
 			.bind( "tap", function( event ) {
 				collapsibleHeading.find( "a" ).first().addClass( $.mobile.activeBtnClass );
 			})
-			.bind( "click", function( event ) {
+			.bind( "vclick", function( event ) {
 
 				var type = collapsibleHeading.is( ".ui-collapsible-heading-collapsed" ) ? "expand" : "collapse";
 
