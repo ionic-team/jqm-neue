@@ -125,9 +125,9 @@
 }
 
 .ui-btn-down-a.ui-shadow {
-	box-shadow: 0 1px 0px #fff;
-	-moz-box-shadow: 0 1px 0px #fff;
-	-webkit-box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,.2);
 }
 
 .ui-btn-down-a:visited,
@@ -256,9 +256,9 @@
 }
 
 .ui-btn-down-b.ui-shadow {
-	box-shadow: 0 1px 0px #fff;
-	-moz-box-shadow: 0 1px 0px #fff;
-	-webkit-box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,.2);
 }
 
 .ui-btn-down-b:visited,
@@ -414,9 +414,9 @@
 }
 
 .ui-btn-down-c.ui-shadow {
-	box-shadow: 0 1px 0px #fff;
-	-moz-box-shadow: 0 1px 0px #fff;
-	-webkit-box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,.2);
 }
 
 .ui-btn-down-c:visited,
@@ -556,9 +556,9 @@
 }
 
 .ui-btn-down-d.ui-shadow {
-	box-shadow: 0 1px 0px #fff;
-	-moz-box-shadow: 0 1px 0px #fff;
-	-webkit-box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,.2);
 }
 
 .ui-btn-down-d:visited,
@@ -709,9 +709,9 @@
 }
 
 .ui-btn-down-f.ui-shadow {
-	-moz-box-shadow: 0 1px 0px #fff;
-	-webkit-box-shadow: 0 1px 0px #fff;
-	box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,.2);
 }
 
 .ui-btn-down-f:visited,
@@ -816,9 +816,9 @@
 }
 
 .ui-btn-down-e.ui-shadow {
-	-moz-box-shadow: 0 1px 0px #fff;
-	-webkit-box-shadow: 0 1px 0px #fff;
-	box-shadow: 0 1px 0px #fff;
+	box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-moz-box-shadow: 0 1px 0px rgba(255,255,255,.2);
+	-webkit-box-shadow: 0 1px 0px rgba(255,255,255,.2);
 }
 
 .ui-btn-down-e:visited,
