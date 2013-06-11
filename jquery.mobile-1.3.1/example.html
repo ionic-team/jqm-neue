@@ -8,10 +8,10 @@
 	</head>
 	<body>
 <!-- Home -->
-<div data-role="page" id="page1">
+<div data-role="page" id="page1" data-theme="a">
 
         <div data-role="panel" id="mypanel" data-theme="a">
-          <ul data-role="listview" data-theme="a" data-divider-theme="c">
+          <ul data-role="listview" data-theme="c" data-divider-theme="c">
               <li data-role="divider">Menu</li>
             <li><a href="#">Home</a></li>
             <li><a href="#">Cats</a></li>
@@ -20,7 +20,7 @@
           </ul>
         </div><!-- /panel -->
 
-    <div data-theme="a" data-role="header" data-position="fixed">
+    <div data-theme="f" data-role="header" data-position="fixed">
 
         <a href="#mypanel" data-role="button" data-icon="bars">
                 Panel
@@ -50,22 +50,22 @@
         </div>
     </div>
     <div data-role="content">
-        <a data-role="button" data-theme="a" href="#page1">
+        <a data-role="button" data-theme="a" href="#page1" data-icon="plus" data-iconpos="right">
             Button 1
         </a>
-        <a data-role="button" data-theme="b" href="#page1">
+        <a data-role="button" data-theme="b" href="#page1" data-icon="plus" data-iconpos="right">
             Button 1
         </a>
-        <a data-role="button" href="#page1">
+        <a data-role="button" href="#page1" data-icon="plus" data-iconpos="right">
             Button
         </a>
-        <a data-role="button" data-theme="d" href="#page1">
+        <a data-role="button" data-theme="d" href="#page1" data-icon="plus" data-iconpos="right">
             Button 1
         </a>
-        <a data-role="button" data-theme="e" href="#page1">
+        <a data-role="button" data-theme="e" href="#page1" data-icon="plus" data-iconpos="right">
             Button 1
         </a>
-        <a data-role="button" data-theme="f" href="#page1">
+        <a data-role="button" data-theme="f" href="#page1" data-icon="plus" data-iconpos="right">
             Button 1
         </a>
         <div data-role="collapsible-set">
@@ -80,22 +80,28 @@
                 </h3>
             </div>
         </div>
-        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+        <ul data-role="listview" data-divider-theme="e" data-theme="f" data-inset="true">
             <li data-role="list-divider" role="heading">
                 Divider
             </li>
-            <li data-theme="c">
+            <li>
                 <a href="#" data-transition="slide">
                     Button
                 </a>
             </li>
-            <li data-theme="c">
+            <li>
                 <a href="#page1" data-transition="slide">
                     Button
                 </a>
             </li>
         </ul>
         <input type="submit" value="Submit">
+        <div data-role="fieldcontain">
+            <label for="textinput1">
+                Title
+            </label>
+            <input name="" id="textinput1" placeholder="" value="" type="search">
+        </div>
         <div data-role="fieldcontain">
             <label for="textinput1">
                 Title
@@ -109,11 +115,11 @@
             <textarea name="" id="textarea1" placeholder=""></textarea>
         </div>
         <div id="checkboxes1" data-role="fieldcontain">
-            <fieldset data-role="controlgroup" data-type="vertical">
+            <fieldset data-role="controlgroup" data-type="vertical" data-theme="b">
                 <legend>
                     Choose:
                 </legend>
-                <input id="checkbox1" name="" data-theme="c" type="checkbox">
+                <input id="checkbox1" name="" type="checkbox">
                 <label for="checkbox1">
                     Option
                 </label>
@@ -127,7 +133,7 @@
             data-highlight="false">
         </div>
         <div data-role="fieldcontain">
-            <select name="toggleswitch1" id="toggleswitch1" data-theme="" data-role="slider">
+            <select name="toggleswitch1" id="toggleswitch1" data-theme="b" data-role="slider">
                 <option value="off">
                     Off
                 </option>
